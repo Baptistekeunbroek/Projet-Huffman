@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_HUFFMAN* F_min_huff(liste_HUFFMAN *l_huff){
     struct liste_HUFFMAN *min_h;
     min_h = l_huff; //on initie toujours le minimum a la premiére case de la liste
