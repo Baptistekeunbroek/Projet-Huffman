@@ -1,3 +1,4 @@
+#include "fonction.h"
 void F_lecture_reecriture_compr(FILE *livre1,FILE *livre1_compr,liste_HUFFMAN *l_huff){
     rewind(livre1); // retour du curseur de lecture au début du livre
     //fclose(livre1);
