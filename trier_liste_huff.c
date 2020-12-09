@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_HUFFMAN* trier_liste_huff(liste_HUFFMAN *l_huff){         //VOIR LE COMMENTAIRE DANS LA FONCTION F_min_huff POUR UN SUPLEMENTT D'EXPLIATION sur le fonctionement de cette fonction
     struct liste_occur *l_occur_vide;
     l_occur_vide = creer_case_liste_occur('a');                            //fausse case de liste_occur qui sert de modéle par la création des nouvelles case de la liste de neud de HUFFMAN
