@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_HUFFMAN* creer_case_huff(liste_occur * l_occur){
 
     liste_HUFFMAN* nouv_case;
