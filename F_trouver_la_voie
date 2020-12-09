@@ -1,3 +1,4 @@
+#include "fonction.h"
 int F_trouver_la_voie(liste_HUFFMAN *l_huff,int chemin_valide ,char ccl,FILE *livre1_compr){
 
     if(ccl == l_huff->symbole ){
