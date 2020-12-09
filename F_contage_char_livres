@@ -1,3 +1,4 @@
+#include "fonction.h"
 void F_contage_char_livres(){
     FILE *livre,*livre_compr,*livre_binaire;
     livre = fopen("Biblio/Livre1", "r");
