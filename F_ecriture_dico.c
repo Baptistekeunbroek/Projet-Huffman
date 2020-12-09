@@ -1,3 +1,4 @@
+#include "fonction.h"
 void F_ecriture_dico(liste_occur *l_occur,liste_HUFFMAN *l_huff,FILE *livre1_compr_dico){
     int chemin_valide;
     while(l_occur != NULL){                                                           //on traverse toute la liste des occurences
