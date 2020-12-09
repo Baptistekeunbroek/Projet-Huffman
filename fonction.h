@@ -1,3 +1,4 @@
+#ifndef FONCTION
 #define FONCTION
 
 
@@ -18,3 +19,5 @@ typedef struct liste_HUFFMAN
     struct liste_HUFFMAN *droite;
     struct liste_HUFFMAN *gauche;
 }liste_HUFFMAN;
+
+#endif  //FONCTION
