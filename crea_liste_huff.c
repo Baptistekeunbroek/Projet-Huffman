@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_HUFFMAN* crea_liste_huff(liste_occur *l_occur,liste_HUFFMAN *l_huff){
 
     struct liste_HUFFMAN *head_h;
