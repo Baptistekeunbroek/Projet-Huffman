@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_occur* creer_case_liste_occur(char c)
 {
     int i=7;
