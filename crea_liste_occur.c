@@ -1,3 +1,4 @@
+#include "fonction.h"
 liste_occur* crea_liste_occur(FILE *livre, FILE *livre1_binaire, liste_occur *l_occur){
     char car_actuel;
     struct liste_occur *head;
