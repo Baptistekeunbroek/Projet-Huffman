@@ -1,3 +1,4 @@
+#include "fonction.h"
 void afficher_liste_occur(liste_occur *l_occur){
     int i=0;
     while(l_occur != NULL){
