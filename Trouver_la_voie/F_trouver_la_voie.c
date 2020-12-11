@@ -1,3 +1,4 @@
+
 int F_trouver_la_voie(liste_HUFFMAN *l_huff,int chemin_valide ,char ccl,FILE *livre1_compr){
 
     if(ccl == l_huff->symbole ){
@@ -6,7 +7,7 @@ int F_trouver_la_voie(liste_HUFFMAN *l_huff,int chemin_valide ,char ccl,FILE *li
 
     if(chemin_valide == 1){
             putc(l_huff->num_h, livre1_compr);
-            //printf("%d",l_huff->num_h);///pour afficher le code de huffman de chaque carac au cour de sa recherche
+            //printf("%d",l_huff->num_h);///pour afficher le code de huffman de chaque carac au cour de sa recherch
             return chemin_valide;//porte de sortie
     }else{
 
